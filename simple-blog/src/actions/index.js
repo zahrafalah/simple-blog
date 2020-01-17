@@ -1,4 +1,5 @@
 import jsonPlaceholder from "../apis/jsonPlaceholder";
+import _ from "lodash";
 
 //Using redux-thunk as a middleware section14
 // export const fetchPosts = () => {
