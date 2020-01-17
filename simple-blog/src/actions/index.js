@@ -34,7 +34,7 @@ export const fetchPosts = () => async dispatch => {
 export const fetchUser = id => dispatch => {
   _fetchUser(id, dispatch);
 };
-//OneTime Memoization to avoid network request for 100 times.
+//OneTime Memoization to avoid network request for 100 times. Section15/188
 //_ at the begining of the function name means this is a private
 //function and other engineers should not make a request unless they
 //know what they are doing
